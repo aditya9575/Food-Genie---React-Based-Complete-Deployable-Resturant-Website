@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 const linkedInUrl = "https://www.linkedin.com/in/aditya-m-0bb92b110/";
 const twitterUrl = "https://x.com/AdityaMehto3";
@@ -47,7 +47,7 @@ const Footer = () => {
           </Col>
         </Row>
         <hr className="footer-divider" />
-        <p className="copyright">© 2023 FoodGenie. All rights reserved.</p>
+        <p className="copyright">© {new Date().getFullYear()} FoodGenie. All rights reserved.</p>
       </Container>
     </footer>
   );
