@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './Orders.css';
+import './orders.css';
 import CustomNavbar from '../navbar-component/CustomNavbar';
 import Sidebar from '../sidebar-component/Sidebar';
 
