@@ -14,6 +14,7 @@ const CustomNavbar = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('tokenExpiration');
     localStorage.removeItem('adminId');
+    localStorage.removeItem("adminhomePageReloaded")
     setAuthenticated(false);
     sessionStorage.clear();
 

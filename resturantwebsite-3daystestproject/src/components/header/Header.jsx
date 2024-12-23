@@ -20,6 +20,7 @@ const Header = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('tokenExpiration');
     localStorage.removeItem('userId');
+    localStorage.removeItem("homePageReloaded")
     setAuthenticated(false);
     sessionStorage.clear();
 
