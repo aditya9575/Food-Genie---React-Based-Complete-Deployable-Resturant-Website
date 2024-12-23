@@ -15,7 +15,7 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Food Genie</p>
           </Col>
           <Col md={4}>
             <h4>Contact Us</h4>
@@ -29,17 +29,17 @@ const Footer = () => {
             <h4>Follow Us</h4>
             <ul className="social-icons">
               <li>
-                <Link to={linkedInUrl} target="_blank" rel="noopener noreferrer">
+                <Link to={linkedInUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   <FaLinkedin />
                 </Link>
               </li>
               <li>
-                <Link to={twitterUrl} target="_blank" rel="noopener noreferrer">
+                <Link to={twitterUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'black' }} >
                   <FaTwitter />
                 </Link>
               </li>
               <li>
-                <Link to={githubUrl} target="_blank" rel="noopener noreferrer">
+                <Link to={githubUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   <FaGithub />
                 </Link>
               </li>

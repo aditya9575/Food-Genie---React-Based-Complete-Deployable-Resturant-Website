@@ -97,6 +97,7 @@ const LoginComponent = () => {
 
       // Display success message and loader
       setLoginSuccess(true);
+      setAuthenticated(true);
 
       // Clear form after successful login
       setFormData({
@@ -104,9 +105,10 @@ const LoginComponent = () => {
         password: '',
       });
 
+
       // Redirect to the homepage after 2 seconds
       setTimeout(() => {
-        setAuthenticated(true);
+
         setLoginSuccess(false);
         navigate('/home', { replace: true });
       }, 2000);

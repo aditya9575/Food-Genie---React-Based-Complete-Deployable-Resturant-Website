@@ -14,6 +14,7 @@ const GlobalContextProvider = ({ children }) => {
 
   const [orderPlaced, setOrderPlaced] = useState(false);
 
+
   // This checks if the user’s session (stored in sessionStorage) is still valid by comparing the token expiration time
   // with the current time.
   useEffect(() => {
